@@ -19,11 +19,10 @@
 
         <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
             <Button Content="Exit" Padding="5" Margin="5"/>
-            <Button Content="Search" Padding="5" Margin="5"/>
             <Button Content="Options" Padding="5" Margin="5"/>
 
         </StackPanel>
-        
+
         <DockPanel Grid.Row="1">
             <TextBlock Name="tBoxPathLeft" DockPanel.Dock="Top" Margin="0 5 5 5" Background="White"/>
 
@@ -33,9 +32,13 @@
         </DockPanel>
 
         <DockPanel Grid.Row="1" Grid.Column="2">
-            <TextBlock Name="tBoxPathRight" DockPanel.Dock="Top" Margin="5 5 0 5" Background="White"/>
-
+            <TextBlock Name="tBoxPathRight" DockPanel.Dock="Top" Margin="5 5 0 5"/>
             <ListBox DockPanel.Dock="Bottom" MouseDoubleClick="lboxRight_MouseDoubleClick" Name="lboxRight" Grid.Row="2" Grid.Column="1" Margin="5 5 0 5"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="2" Grid.ColumnSpan="2">
+            <Button Content="Search" DockPanel.Dock="Right" Margin="5"/>
+            <TextBox Name="tBoxSearch" Margin="5"/>
         </DockPanel>
     </Grid>
 </Window>

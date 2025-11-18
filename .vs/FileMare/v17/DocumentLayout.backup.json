@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\227\\FileMare\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|d:\\227\\filemare\\wpfapp4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|solutionrelative:wpfapp4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|d:\\227\\filemare\\wpfapp4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|solutionrelative:wpfapp4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|d:\\227\\filemare\\wpfapp4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{599959CA-60B6-43E1-84CB-F5457294B879}|WpfApp4\\WpfApp4.csproj|solutionrelative:wpfapp4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\227\\FileMare\\WpfApp4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp4\\MainWindow.xaml",
@@ -46,16 +46,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\227\\FileMare\\WpfApp4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp4\\MainWindow.xaml.cs",
               "ToolTip": "D:\\227\\FileMare\\WpfApp4\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp4\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T06:27:54.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T06:27:54.821Z"
             }
           ]
         },
