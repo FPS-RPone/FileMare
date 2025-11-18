@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="WhiteSmoke" FontSize="18">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="35*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Button Content="Exit" Padding="5" Margin="5"/>
+            <Button Content="Search" Padding="5" Margin="5"/>
+            <Button Content="Options" Padding="5" Margin="5"/>
+
+        </StackPanel>
+        
+        <DockPanel Grid.Row="1">
+            <TextBlock Name="tBoxPathLeft" DockPanel.Dock="Top" Margin="0 5 5 5" Background="White"/>
+
+
+
+            <ListBox KeyDown="lboxLeft_KeyDown" MouseDoubleClick="lboxLeft_MouseDoubleClick" Name="lboxLeft" Margin="0 5 5 5"/>
+        </DockPanel>
+
+        <DockPanel Grid.Row="1" Grid.Column="2">
+            <TextBlock Name="tBoxPathRight" DockPanel.Dock="Top" Margin="5 5 0 5" Background="White"/>
+
+            <ListBox DockPanel.Dock="Bottom" MouseDoubleClick="lboxRight_MouseDoubleClick" Name="lboxRight" Grid.Row="2" Grid.Column="1" Margin="5 5 0 5"/>
+        </DockPanel>
+    </Grid>
+</Window>
